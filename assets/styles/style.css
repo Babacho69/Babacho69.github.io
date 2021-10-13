@@ -202,13 +202,13 @@ body{
 }
 
 
-@media only screen and ( min-width: 600px) {
+@media only screen and ( min-width: 300px) {
   .dad-container{
       flex-direction: row;
       justify-content: center;
   }
   .banner-img img{
-      width: 300px;
+      width: 120px;
      
   
   
@@ -216,7 +216,7 @@ body{
   
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .banner-img img{
       width: 400px;
   }
