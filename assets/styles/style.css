@@ -202,12 +202,29 @@ body{
 }
 
 
-
 @media only screen and ( min-width: 600px) {
   .dad-container{
       flex-direction: row;
       justify-content: center;
   }
+  .banner-img img{
+      width: 300px;
+     
   
+  
+  }
+  
+}
+
+@media only screen and (min-width: 768px) {
+  .banner-img img{
+      width: 400px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .banner-img img{
+      width: 500px;
+  }
 }
   
